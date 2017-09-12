@@ -10,7 +10,7 @@ app.use(cors())
 
 app.post('/register', (req, res) => {
   res.send({
-    message: 'Hello registered'
+    message: 'User registered'
   })
 })
 
